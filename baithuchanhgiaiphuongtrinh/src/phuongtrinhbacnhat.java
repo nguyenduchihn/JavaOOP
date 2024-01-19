@@ -3,9 +3,9 @@ public class phuongtrinhbacnhat {
     public static void main(String[] args) {
         double a, b, nghiem;
         Scanner sc = new Scanner(System.in);
-        System.out.println("nhap a =");
+        System.out.print("nhap a =");
         a = sc.nextDouble();
-        System.out.println("nhap b =");
+        System.out.print("nhap b =");
         b = sc.nextDouble();
         System.out.println("phuong trinh vua nhap la:" + a +"x +" + b + "= 0");
         if(a==0){
