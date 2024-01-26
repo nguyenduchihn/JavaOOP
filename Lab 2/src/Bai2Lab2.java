@@ -14,5 +14,6 @@ public class Bai2Lab2 {
             System.out.print(a + "la so chan");
         if(a % 2 == 1) 
             System.out.print(a + "la so le");
+        sc.close();    
     }
 }

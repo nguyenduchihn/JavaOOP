@@ -46,7 +46,7 @@ public class Bai4Lab2 {
             default:
                 System.out.print("So khong hop le ");
         }
-
+        sc.close();
     }
     
 }
