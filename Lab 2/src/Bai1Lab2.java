@@ -25,7 +25,6 @@ public class Bai1Lab2 {
         } else {
             System.out.print("ket qua " + a + "<" + b);
         }
-        sc.close();
     }
     
 }
