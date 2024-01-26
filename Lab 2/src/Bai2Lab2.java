@@ -13,7 +13,6 @@ public class Bai2Lab2 {
         if(a % 2 == 0)
             System.out.print(a + "la so chan");
         if(a % 2 == 1) 
-            System.out.print(a + "la so le");
-        sc.close();    
+            System.out.print(a + "la so le");    
     }
 }
