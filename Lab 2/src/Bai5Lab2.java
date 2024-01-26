@@ -7,7 +7,7 @@ public class Bai5Lab2 {
         String strResoult =" ";
         Scanner sc = new Scanner(System.in);
         n = 0;
-        while(sum<100) {
+        while(sum<=100) {
             System.out.println("nhap cac so: ");
             n = sc.nextInt();
             sum += n;
