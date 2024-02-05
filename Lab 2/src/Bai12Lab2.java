@@ -13,7 +13,7 @@ public class Bai12Lab2 {
 
         //khai bao nhap gia tri cho mang
         int [][] mangHaiChieu = new int[hangNgang][hangDoc];
-            for(int i = 0; i < mangHaiChieu[i].length; i++){
+            for(int i = 0; i < mangHaiChieu.length; i++){
                 for(int j = 0; j < mangHaiChieu[i].length; j++){
                     System.out.print("Nhap gia tri cho phan tu [" + (i+1) + "] ["+ (j+1) + "] la: ");
                     mangHaiChieu[i][j] = sc.nextInt();
@@ -22,7 +22,7 @@ public class Bai12Lab2 {
 
         //khoi tao bien co dinh va tim kiem gia tri lon nhat
         int max = mangHaiChieu[0][0];
-        for(int i = 0; i < mangHaiChieu[i].length; i++){
+        for(int i = 0; i < mangHaiChieu.length; i++){
                 for(int j = 0; j < mangHaiChieu[i].length; j++){
                     if(mangHaiChieu[i][j] >= max){
                         max = mangHaiChieu[i][j];
