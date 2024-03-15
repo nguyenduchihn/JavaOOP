@@ -33,11 +33,5 @@ public class Student {
         System.out.println("Nam sinh: " + namSinh);
         System.out.println("Dia chi: " + diaChi);
         System.out.println("Diem tong ket trung binh:" + DTB);
-    }
-
-
-    
-
-
-    
+    }  
 }
