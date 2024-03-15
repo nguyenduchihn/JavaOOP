@@ -4,7 +4,5 @@ public class TestEmployee {
         nv.nhapThongTinNV();
         nv.tinhLuong(nv.namLamviec);
         nv.xuatThongTinNV();
-    }
-    
+    } 
 }
-jksdfhjsd

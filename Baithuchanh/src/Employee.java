@@ -39,6 +39,4 @@ public class Employee {
         System.out.println("Nam gan bo lam viec: " + namLamviec);
         System.out.println("Luong nhan vien: " + luong);
     }
-
-    jsdhfjk
 }
