@@ -16,14 +16,10 @@ public class Employee extends Person {
     {
         System.out.println("========" + position + "========");
     }
-    public void DisplayPosition()
-    {
-        System.out.println("Vi tri: " + position);
-    }
     public void EnterData()
     {
         super.EnterData();
-        System.out.println("ID nhan vien: ");
+        System.out.print("ID nhan vien: ");
         IDEmployee = sc.nextLine();
     }
     public void Display()

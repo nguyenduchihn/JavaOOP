@@ -10,7 +10,7 @@ public class EmployeeParttime extends Employee {
     public void EnterData()
     {
         super.EnterData();
-        System.out.println("So gio lam viec: ");
+        System.out.print("So gio lam viec: ");
         hour = sc.nextInt();
     }
     public void salary()

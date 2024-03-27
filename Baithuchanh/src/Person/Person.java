@@ -7,28 +7,31 @@ public class Person {
     public int Age;
     public String Sex;
     public String Address;
-    public int SDT;
+    public int PhoneNumber;
     Scanner sc = new Scanner(System.in);
     public Person()
     {
         FullName = "";
         Age = 0;
         Address = "";
-        SDT = 0;
+        PhoneNumber = 0;
     }
     public void EnterData()
     {
-        System.out.println("FullName = ");
+        System.out.print("FullName = ");
         FullName = sc.nextLine();
-        System.out.println("Age = ");
+        System.out.print("Age = ");
         Age = sc.nextInt();
-        System.out.println("Address = ");
+        System.out.print("Address = ");
         Address = sc.next();
-        System.out.println("So dien thoai = ");
-        SDT = sc.nextInt();
+        System.out.print("PhoneNumber = ");
+        PhoneNumber = sc.nextInt();
     }
     public void Display()
     {
-        System.out.println(FullName + " - " + Age + " - " + Sex + " - " + Address);
+        System.out.println("FullName: " + FullName);
+        System.out.println("Age: " + Age);
+        System.out.println("Address: " + Address);
+        System.out.println("PhoneNumber: " + PhoneNumber);
     } 
 }

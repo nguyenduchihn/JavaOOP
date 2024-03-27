@@ -12,9 +12,9 @@ public class EmployeeFulltime extends Employee {
     public void EnterData ()
     {
         super.EnterData();
-        System.out.println("So nam lam viec o cong ty: ");
+        System.out.print("So nam lam viec o cong ty: ");
         year = sc.nextInt();
-        System.out.println("So ngay lam viec: ");
+        System.out.print("So ngay lam viec: ");
         day = sc.nextInt();
     }
     public void salary()
