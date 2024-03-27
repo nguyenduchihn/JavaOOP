@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Person {
     public String FullName;
     public int Age;
-    public String Sex;
     public String Address;
     public int PhoneNumber;
     Scanner sc = new Scanner(System.in);
