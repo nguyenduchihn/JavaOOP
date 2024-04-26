@@ -17,6 +17,10 @@ public class Slide35chuong2 {
             min = a = b;
             System.out.println("Hai so bang nhau bang "+ min);
         }
+        else {
+            min = a;
+            System.out.println("So nho nhat la: " + min);
+        }
     }
     
 }
