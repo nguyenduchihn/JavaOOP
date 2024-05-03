@@ -15,6 +15,5 @@ public class Slide10chuong4 {
         while (listIterator.hasNext()) {
             System.out.println(listIterator.next() + "\t");   
         }
-    }
-    
+    } 
 }
