@@ -13,6 +13,5 @@ public class Slide18chuong4 {
         for (int  number : arrayListInteger) {
             System.out.println(number + "\t");
         }
-    }
-    
+    }   
 }
