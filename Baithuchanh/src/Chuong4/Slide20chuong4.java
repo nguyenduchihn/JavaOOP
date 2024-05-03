@@ -3,7 +3,7 @@ package Chuong4;
 import java.util.ArrayList;
 import java.util.ListIterator;
 
-public class Slide10chuong4 {
+public class Slide20chuong4 {
     public static void main(String[] args) {
         ArrayList<Character> arrayListChar = new ArrayList<>();
         arrayListChar.add('a');
