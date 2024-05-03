@@ -15,6 +15,5 @@ public class Slide21chuong4 {
         System.out.println(fullName.contains("Le Van D"));
         System.out.println(fullName.size());
         System.out.println(fullName);
-    }
-    
+    }   
 }
