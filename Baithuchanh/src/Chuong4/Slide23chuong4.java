@@ -22,6 +22,5 @@ public class Slide23chuong4 {
                 max = arrayListInteger.get(i);
         }
         System.out.println("Phan tu lon nhat trong arrListString la: " + max);
-    }
-    
+    }  
 }
