@@ -12,5 +12,5 @@ public class Slide17chuong4 {
         System.out.println("Cac phan tu  co trong arrListString la: ");
         for( int i = 0; i < arrayListString.size(); i++)
             System.out.println(arrayListString.get(i) + "\t");
-    }  
+    }    
 }
