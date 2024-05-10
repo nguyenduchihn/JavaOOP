@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Slide54chuong4 {
     public static void main(String[] args) {
-        String n;
+        String name;
         HashSet<String> hashSetString = new HashSet<>();
         Scanner sc = new Scanner(System.in);
 
@@ -19,16 +19,16 @@ public class Slide54chuong4 {
         System.out.println("Danh sach ten trong hashSetString: ");
         System.out.println(hashSetString);
         System.out.println("Ten can them: ");
-        n = sc.nextLine();
+        name = sc.nextLine();
         
         //Them phan tu
-        if (!hashSetString.contains(n)) {
-            hashSetString.add(n);
+        if (!hashSetString.contains(name)) {
+            hashSetString.add(name);
             System.out.println("Them thanh cong");
             System.out.println("Cac phan tu sau khi them trong hashSetString: ");
             System.out.println(hashSetString);
         } else {
-            System.out.println("Phan tu " + n + " da ton tai! ");
+            System.out.println("Phan tu " + name + " da ton tai! ");
         }
     }
 }
