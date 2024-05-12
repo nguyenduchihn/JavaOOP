@@ -10,6 +10,8 @@ public class Bai1Lab4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> arrayListInt = new ArrayList<>();
+        
+        //Nhap so luong phan tu
         System.out.println("Nhap so luong phan tu: ");
         int n = sc.nextInt();
         for(int i=0; i<n; i++) {
@@ -48,8 +50,7 @@ public class Bai1Lab4 {
 
         //Sap xep day so
         arrayListInt.sort((o1,o2)->(o1-o2));
-        System.out.println("Day so duoc sap xep la: " + arrayListInt);
-        
+        System.out.println("Day so duoc sap xep la: " + arrayListInt); 
     }
 }
     
