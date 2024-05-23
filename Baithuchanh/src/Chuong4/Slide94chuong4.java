@@ -18,7 +18,5 @@ public class Slide94chuong4 {
         System.out.println("Ten thanh pho truoc khi bi xoa: " + tp);
         tp.remove(1);
         System.out.println("Ten thanh pho sau khi bi xoa: " + tp);
-
     }
-    
 }
