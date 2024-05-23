@@ -9,8 +9,6 @@ public class Slide99chuong4 {
         TreeMap<String, Double> treeMap1 = new TreeMap<>();
         
         Map<Float, Integer> map = new HashMap();
-        TreeMap<Float, Integer> treeMap2 = new TreeMap<>(map);
-        
-    }
-    
+        TreeMap<Float, Integer> treeMap2 = new TreeMap<>(map);   
+    } 
 }
