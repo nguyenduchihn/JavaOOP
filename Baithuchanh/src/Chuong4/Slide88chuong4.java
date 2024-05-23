@@ -28,8 +28,5 @@ public class Slide88chuong4 {
         // //De kiem tra mot ten Laptop co trong hashMapLaptop hay khong thi ta su dung containsValue
         if(hashMapLaqptop.containsValue("Acer")) 
             System.out.println("Co Laptop Acer trong hasMapLaptop");
-
-
-    }
-    
+    }    
 }
