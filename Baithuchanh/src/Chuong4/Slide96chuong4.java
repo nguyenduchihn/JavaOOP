@@ -24,6 +24,5 @@ public class Slide96chuong4 {
         Set<Integer> keySet = linkedHashMap.keySet();
         for (Integer key : keySet)
             System.out.println(key + " " + linkedHashMap.get(key));
-    }
-    
+    } 
 }
