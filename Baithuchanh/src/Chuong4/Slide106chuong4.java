@@ -17,5 +17,4 @@ public class Slide106chuong4 {
         Set<Map.Entry<Integer, String>> setPerson = treeMapPerson.entrySet();
         System.out.println(setPerson);
     }
-    
 }
