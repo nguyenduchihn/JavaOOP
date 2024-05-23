@@ -31,7 +31,7 @@ public class Bai3Lab4 {
         System.out.println("Name : " + linkedList.get(indexOfStudent).fullName);
         System.out.println("Mark : " + linkedList.get(indexOfStudent).markStudent);
     }
-
+    //Danh sach nhung nguoi thi lai
     public static void showStudentFailMark(LinkedList<Student> linkedList) {
         int countStudent = 0;
         for(int i = 0; i < linkedList.size(); i++) {
@@ -48,7 +48,7 @@ public class Bai3Lab4 {
             }
         }
     }
-
+    //Sinh vien co diem cao nhat
     public static void showStudentBestExams(LinkedList<Student> linkedList) {
         Student newStudent = linkedList.getFirst();
         for(Student x : linkedList) {
@@ -64,7 +64,7 @@ public class Bai3Lab4 {
             }
         }
     }
-
+    //Tim sinh vien
     public static void foundStudent(LinkedList<Student> linkedList) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter name : ");
@@ -85,11 +85,11 @@ public class Bai3Lab4 {
 }
 
 class Student {
-    // Attributes
+    // Thuoc tinh
     public String fullName;
     public double markStudent; 
 
-    // Methods
+    // Phuong thuc
     public Student() {
         fullName = "";
         markStudent = 0;
