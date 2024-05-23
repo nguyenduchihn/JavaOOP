@@ -33,12 +33,12 @@ public class Bai4Lab4 {
         fruitArrayList.add("Melon");
         fruitArrayList.add("Passion");
 
-        // Add
+        // Add thong tin
         for(String x : fruitArrayList) {
             fruitHashSet.add(x);
         }
 
-        // Create Iterator
+        // Tao Iterator
         Iterator<String> fruitIterator = fruitHashSet.iterator();
         System.out.println();
         System.out.println("List fruit : ");
@@ -47,13 +47,13 @@ public class Bai4Lab4 {
         }
         System.out.println();
 
-        // Delete
+        // Xoa
         fruitHashSet.removeAll(fruitArrayList);
         System.out.println();
         showSet(fruitHashSet);
     }
 
-    // Function showSet
+    // Hien thi thong tin
     public static void showSet(HashSet<String> hashSet) {
         System.out.println("List friut : ");
         for(String x : hashSet) {
@@ -62,13 +62,13 @@ public class Bai4Lab4 {
         System.out.println();
     }
 
-    // Function caculated size list
+    // Hien thi so luong 
     public static void sizeList(HashSet<String> hashSet) {
         System.out.println("Size of list : " + hashSet.size());
         System.out.println();
     }
 
-    // Function found fruit
+    // Hien thi fruit tim duoc
     public static void checkFruit(HashSet<String> hashSet) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter name fruit to found : ");
@@ -81,7 +81,7 @@ public class Bai4Lab4 {
         System.out.println();
     }
 
-    // Function deleted fruit
+    // Hien thi thong tin sau khi xoa
     public static void deletedFruit(HashSet<String> hashSet) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter name fruit to deleted : ");
