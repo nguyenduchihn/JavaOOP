@@ -14,4 +14,5 @@ public class ArrayListDemo {
         Student.XoaThongTin(arrayListStudents);
         Student.Display(arrayListStudents);
     }
+    
 }
