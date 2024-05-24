@@ -61,7 +61,7 @@ public class Student {
         for(int i = 0; i < n ; i++) {
             Student std = new Student();
             std.EnterData();
-            //add vao listStudent
+            //add vao setStudent
             setStudent.add(std);
         }
     }
