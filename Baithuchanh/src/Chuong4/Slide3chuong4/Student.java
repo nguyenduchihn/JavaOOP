@@ -69,7 +69,7 @@ public class Student {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap thong tin muon thay doi: ");
         String fName = sc.nextLine();
-        // tim kiem xem phan tu thu i co FullName = name hay khong
+        // tim kiem xem phan tu thu i co FullName = fname hay khong
         for( int i = 0; i < listStudent.size(); i++) {
             if(listStudent.get(i).FullName.equals(fName)) {
                 //neu tim thay thong tin trung thi nhap thong tin moi va cap nhat vao list
